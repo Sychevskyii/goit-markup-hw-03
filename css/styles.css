@@ -83,6 +83,10 @@ ol {
   border-bottom: 1px solid #ececec;
 }
 
+.header-logo {
+  margin-right: 93px;
+}
+
 .header-container {
   display: flex;
   align-items: center;
@@ -90,7 +94,6 @@ ol {
 
 .header-logo-dark {
   color: #000;
-  margin-right: 93px;
 }
 
 .navigation-list {
@@ -159,7 +162,6 @@ ol {
 }
 
 .hero-container {
-  width: 694px;
   padding: 0;
 }
 
@@ -172,7 +174,9 @@ ol {
   text-transform: uppercase;
   text-align: center;
   margin-bottom: 30px;
-  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  width: 694px;
 }
 
 .hero-btn {
@@ -201,12 +205,17 @@ ol {
 
 /* Секція про нас */
 
+.about.section {
+  padding-bottom: 0;
+}
+
 .about-list {
   display: flex;
 }
 
 .about-list-item {
   margin-right: 30px;
+  width: 270px;
 }
 
 .about-list-item:last-child {
@@ -219,6 +228,7 @@ ol {
   font-size: 14px;
   letter-spacing: 0.42px;
   text-transform: uppercase;
+  margin-bottom: 10px;
 }
 
 .about-list-item-text {
@@ -251,7 +261,7 @@ ol {
 
 .team-list {
   display: flex;
-  justify-content: space-between;
+  gap: 30px;
 }
 
 .team-list-item {
@@ -259,11 +269,11 @@ ol {
   box-shadow: 0px 2px 1px 0px rgba(0, 0, 0, 0.2),
     0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
   border-radius: 0px 0px 4px 4px;
-  padding-bottom: 30px;
 }
 
-.team-list-item img {
-  margin-bottom: 30px;
+.team-info {
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 
 .team-list-item-title {
@@ -370,19 +380,27 @@ ol {
 
 .projects-type-list {
   display: flex;
-  justify-content: space-between;
   align-items: flex-end;
   flex-wrap: wrap;
+  gap: 30px;
+}
+
+.projects-info {
+  padding-top: 20px;
+  padding-right: 24px;
+  padding-bottom: 54px;
+  padding-left: 24px;
+  border-right: 1px solid #EEE;
+  border-bottom: 1px solid #EEE;
+  border-left: 1px solid #EEE;
+}
+
+.projects-type-list-title {
+  margin-bottom: 4px;
 }
 
 .projects-type-list-item {
-  border-bottom: 1px solid #eee;
   background: #fff;
-  margin-bottom: 30px;
-}
-
-.projects-type-list-item:nth-last-child(-n + 3) {
-  margin: 0;
 }
 
 .projects-type-list-title {
