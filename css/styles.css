@@ -245,7 +245,7 @@ ol {
 
 .specialization-list {
   display: flex;
-  justify-content: space-between;
+  gap: 30px;
 }
 
 /* Секція команда */
@@ -388,7 +388,7 @@ ol {
 .projects-info {
   padding-top: 20px;
   padding-right: 24px;
-  padding-bottom: 54px;
+  padding-bottom: 20px;
   padding-left: 24px;
   border-right: 1px solid #EEE;
   border-bottom: 1px solid #EEE;
